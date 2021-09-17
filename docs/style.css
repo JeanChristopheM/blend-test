@@ -3,7 +3,7 @@ html, body, h2 {
 }
 h2 {
     color:red;
-    mix-blend-mode:darken;
+    mix-blend-mode: exclusion;
     font: 900 35vmin/35vh cookie, cursive;
     
     position: fixed;
@@ -13,8 +13,15 @@ h2 {
 
     user-select: none;
 }
-.bg {
-    width:100%;
-    height:300vh;
+.bg1 {
+    height:100vh;
     background: url('https://image.freepik.com/free-vector/abstract-background-with-3d-pattern_1319-68.jpg');
+}
+.bg2 {
+    height:100vh;
+    background: url('https://image.freepik.com/free-vector/seamless-texture-with-randomly-spaced-points_2960-29.jpg');
+}
+.bg3 {
+    height:100vh;
+    background: url('https://image.freepik.com/free-vector/seamless-floral-pattern-uniform-background-ornament-darkcyan-design-fabric-art-fashion-contour_1284-44199.jpg');
 }
